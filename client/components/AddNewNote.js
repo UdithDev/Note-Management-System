@@ -14,13 +14,12 @@ const AddNewNote = () => {
           name="note"
           cols="100"
           rows="15"
-         
         />
       </div>
 
       <div className="mt-10 flex ">
         <div className="shadow-md bg-[#6e42c3] ml-[280px] ">
-          <button type="button" className=" p-4" >
+          <button type="button" className=" p-4">
             save
           </button>
         </div>

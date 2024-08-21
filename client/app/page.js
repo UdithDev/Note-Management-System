@@ -1,11 +1,11 @@
-import PreLoader from "./component/PreLoader";
-import Home from "./dashboard/Home";
+import PreLoader from "@/components/PreLoader";
+import Header from "@/components/Header";
 
 export default function page() {
   return (
-    <>
+    <main>
       <PreLoader />
-      <Home />
-    </>
+      <Header />
+    </main>
   );
 }
